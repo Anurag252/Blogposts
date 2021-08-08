@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "serves as a backend for blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "graphql",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "anurag252",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.1",
+    "tsc": "^2.0.3",
+    "typescript": "^4.3.5"
+  }
+}
